@@ -10,7 +10,7 @@ WHITE = (255, 255, 255)
 sc = pygame.display.set_mode((W, H))
 sc.fill(WHITE)
 
-car = pygame.image.load('Sprite-0001.png').convert()
+car = pygame.image.load('Images and sounds\Sprite-0001.png').convert()
 car.set_colorkey((0, 0, 0))
 rect = car.get_rect(center = (W // 2, H // 2))
 sc.blit(car, rect)

@@ -13,7 +13,7 @@ STOP = 'stop'
 x = 200
 y = 150
 
-car = pygame.image.load('Sprite-0004.PNG').convert()
+car = pygame.image.load('Images and sounds\Sprite-0004.PNG').convert()
 car.set_colorkey((0, 0, 0))
 car_rect = car.get_rect(center = (x, y))
 sc.blit(car, car_rect)
